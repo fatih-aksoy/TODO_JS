@@ -3,16 +3,17 @@ body {
   width: 50%;
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: bisque;
 }
 
-.contaoner {
-  width: 360px;
+.container {
+  width: 400px;
 }
 
 #inputField {
   width: 300px;
   height: 46px;
-  border: 1px solid black;
+  border: 1px solid brown;
   outline: none;
   font-size: 25px;
   vertical-align: middle;
@@ -21,7 +22,7 @@ body {
 #addTodo {
   height: 50px;
   width: 50px;
-  border: 1px solid black;
+  border: 1px solid red;
   vertical-align: middle;
   font-size: 30px;
 }
@@ -34,4 +35,5 @@ body {
     margin: 0;
     cursor: pointer;
     font-size: 20px;
+    color:purple
 }
