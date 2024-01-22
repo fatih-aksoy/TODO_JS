@@ -10,9 +10,13 @@ addTodoButton.addEventListener("click", function () {
   paragraph.innerText = inputField.value;
   todoContainer.appendChild(paragraph);
   inputField.value = "";
+
+  //! ustunu cizme islemi
   paragraph.addEventListener("click", function () {
     paragraph.style.textDecoration = "line-through";
   });
+
+  // ! silme islemi
   paragraph.addEventListener("dblclick", function () {
     todoContainer.removeChild(paragraph);
   });
